@@ -738,3 +738,14 @@
 .video__text{
   font-size: 0.1em;
 }
+
+.conect{
+  border: solid #b99365;
+  color:#FFF;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  background-color: #b99365;
+}
