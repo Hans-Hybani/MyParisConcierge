@@ -6,36 +6,46 @@
 }
 
 
-.countdown{
-        font-family: Arial, sans-serif;
-        text-align: center;
-        background-color: #f8f9fa;
-        padding-bottom: 30px;
-      }
-      .countdown  h1 {
-        font-size: 46px;
-        margin-bottom: 20px;
-      }
-      
-      .time {
-        display: inline-block;
-        margin: 0 10px;
-        background-color: #fff;
-        padding: 10px;
-        border-radius: 4px;
-        margin-top: 10px;
-        margin-bottom: 20px;
-        box-shadow: 1px 1px 5px 1px black;
-      }
-      
-      .countdown span {
-        font-size: 34px;
-      }
-      
-      #timer {
-        display: flex;
-        justify-content: center;
-      }
+.countdown {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f8f9fa;
+  padding-bottom: 30px;
+}
+
+.countdown h1 {
+  font-size: 46px;
+  margin-bottom: 20px;
+}
+
+.time {
+  display: inline-block;
+  margin: 0 10px;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 4px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  box-shadow: 1px 1px 5px 1px black;
+}
+
+.countdown span {
+  font-size: 25px;
+}
+
+#timer {
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 600px) {
+  .time {
+    font-size: 8px;
+    padding: 5px;
+    margin: 0 5px;
+  }
+}
+
 
 .opacity::before{
   content: "";
@@ -724,4 +734,7 @@
 }
 .main__container{
   margin-top: 100px;
+}
+.video__text{
+  font-size: 0.1em;
 }
