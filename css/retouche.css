@@ -725,3 +725,6 @@
 .main__container{
   margin-top: 100px;
 }
+.video__text{
+  font-size: 0.1em;
+}
