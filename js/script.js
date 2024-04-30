@@ -34,3 +34,17 @@ function formatTime(time) {
   return time < 10 ? "0" + time : time;
 }
 
+document.addEventListener('DOMContentLoaded', function() {
+  const exploreBtn = document.getElementById('explore-btn');
+
+  // Ajouter un événement de clic sur le bouton d'exploration
+  exploreBtn.addEventListener('click', function() {
+    // Ajouter une classe CSS pour l'animation de disparition
+    document.body.classList.add('fade-out');
+
+    // Rediriger vers la page d'accueil après la fin de l'animation
+    setTimeout(function() {
+      window.location.href = 'home.html';
+    }, 1000); // Délai en millisecondes, ajustez selon votre préférence
+  });
+});
