@@ -129,6 +129,10 @@
   margin-bottom: 20px;
   padding: 5px;
   cursor: pointer;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .product img {
@@ -210,6 +214,7 @@
   text-align: center;
   color: #b99365;
   font-weight: bold;
+  margin-top: auto;
 }
 
 /*  */
@@ -748,4 +753,9 @@
   display: flex;
   justify-content: center;
   background-color: #b99365;
+}
+
+.user__log{
+  width: 20px;
+  filter: brightness(0);
 }
