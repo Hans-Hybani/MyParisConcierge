@@ -24,13 +24,6 @@
     --opacity-black: hsl(0, 0%, 0%, 75%);
 }
 
-body {
-    position: relative;
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
-    font-size: var(--fs-regular);
-}
 
 h1,
 h2,
