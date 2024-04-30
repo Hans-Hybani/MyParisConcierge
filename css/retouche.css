@@ -67,8 +67,8 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  margin-top: 150px;
-  margin-bottom: 10px;
+  margin-top: 50px;
+  /* margin-bottom: 10px; */
 }
 .log__block h2{
   width: 100%;
